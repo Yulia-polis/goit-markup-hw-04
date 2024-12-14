@@ -128,14 +128,13 @@ ul, ol{
 
     .hero{
         background-color: #2e2f42;
-        width: 100%;
+        max-width: 1440px;
         padding-bottom: 188px;
         padding-top: 188px;
-        background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\ .jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: 1440px, cover;
+        background-size: cover;
 
     }
     .title-hero{
@@ -169,6 +168,8 @@ ul, ol{
     cursor: pointer;
     min-width: 169px;
     height: 56px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .hero-btn:hover,
     .hero-btn:focus{
@@ -218,12 +219,12 @@ ul, ol{
         padding-bottom: 24px;
         padding-left: 100px;
         padding-right: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        margin-bottom: 8px;
     }
-
-
-
-   
-    
 
     .info-p{
         font-weight: 400;
@@ -233,6 +234,7 @@ ul, ol{
     }
     
     /* #endregion */
+   
     /* #region Team */
 
 .team-list-main{
@@ -267,6 +269,7 @@ ul, ol{
         gap: 24px;
         margin-top: 8px;
         margin-left: 16px;
+        justify-content: center;
     }
 
     .icon-team{
