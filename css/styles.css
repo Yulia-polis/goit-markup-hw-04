@@ -401,7 +401,7 @@ ul, ol{
         width: 100%;  
     }
 
-    .overlay-text:hover{
+    .port-list:focus .overlay-text{
         transform: translateY(0%);
     }
    
