@@ -436,6 +436,7 @@ ul, ol{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-bottom: 16px;
     max-width: 264px
 }
 .logo-foot{
@@ -445,8 +446,7 @@ ul, ol{
 
 .icon-message-footer{
     display: flex;
-    gap: 24px;
-    margin-top: 16px;
+    gap: 16px; 
 }
 .media{
     font-weight: 500;
