@@ -40,7 +40,6 @@ ul, ol{
 .nav-main{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .navigation-menu{
     display: flex;
@@ -127,6 +126,7 @@ ul, ol{
     /* #region Hero */
 
     .hero{
+        margin: 0 auto;
         background-color: #2e2f42;
         max-width: 1440px;
         padding-bottom: 188px;
